@@ -3,27 +3,21 @@ A comprehensive system design and software engineering project focused on managi
 
 📌 Project Overview
 The LibPro system is designed to streamline library services for readers, librarians, and managers. It ensures efficient book management, user tracking, and automated system actions.
-+2
 
 🏗️ Architecture
 The project is built on the MVC Pattern to ensure a clean separation of concerns:
-+1
 
 
 Model: Represents the data and business logic (e.g., User, Book, Loan, Notification).
-+1
 
 
 View: The user interface components for interacting with the system (e.g., Search pages, Management dashboards).
-+1
 
 
 Controller: Manages user requests, processes logic, and coordinates between the Model and View.
-+1
 
 👥 Key Stakeholders & Use Cases
 The system defines four primary actors with specific permissions:
-+2
 
 📖 Reader
 Search for books by title, author, or category.
@@ -58,11 +52,9 @@ The project includes detailed technical modeling:
 
 
 Use Case Diagrams: Mapping all user interactions.
-+1
 
 
 Sequence Diagrams: Visualizing the flow of operations like "Book Search" and "Update Contact Info".
-+1
 
 
 Class Diagrams: Defining the data structures and relationships.
